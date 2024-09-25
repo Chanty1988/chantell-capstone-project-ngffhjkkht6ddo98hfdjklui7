@@ -1,12 +1,18 @@
 /* All Pages Start */
 body {
-  ;
-  font-family: cursive; 
-color: white; text-align: center
-}
-
-footer{
   font-family: cursive;
   color: white;
-  text-align: center
+  text-align: center;
+  margin: 1px;
+}
+
+nav {
+  text-align: center;
+  font-size: 1vw; font-family: cursive
+}
+
+footer {
+  font-family: cursive;
+  color: white;
+  text-align: center;
 }
