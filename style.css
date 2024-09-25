@@ -1,15 +1,20 @@
 /* All Pages Start */
 body {
+  background-color: maroon;
   font-family: cursive;
-  color: white;
+  color: white ;
   text-align: center;
   margin: 1px;
 }
 
 nav {
   text-align: center;
-  font-size: 1vw; font-family: cursive
+  font-size: 2vw; font-family: cursive
 }
+
+table{text-align: center}
+
+td{text-align: center}
 
 footer {
   font-family: cursive;
