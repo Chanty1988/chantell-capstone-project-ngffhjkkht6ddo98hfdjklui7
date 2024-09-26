@@ -1,4 +1,5 @@
  <script>
+   debugger;{
           /************************************
 Is userNumber less than 10?
 
@@ -33,7 +34,7 @@ Display myResult
   //STEPS: Display the vaule of myResult.
   //PSEUDO: Display myResult
   document.write("Is your number less than 10? " + myResult + "<br>");
-
+   }
        function runProblem1() {
     /******************************
   Create a loop that repets 3 times and runs the "ask" command.
