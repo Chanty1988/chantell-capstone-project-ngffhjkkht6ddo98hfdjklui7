@@ -13,7 +13,7 @@ STEPS:
 
 PSEUDO CODE:
 userText <= Ask for a number
-userNumber =< Convert userText
+userNumber <= Convert userText
 myResult <= Is userNumber < 10
 Display myResult
 *******************************/
