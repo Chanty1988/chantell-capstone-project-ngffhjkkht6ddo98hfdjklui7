@@ -7,3 +7,5 @@ git remote add origin https://github.com/Chanty1988/chantell-capstone-project-ng
 curl -sS https://webi.sh/gh | sh
 gh auth login
 git push -u origin main
+git config user.name "Chanty1988
+git"
