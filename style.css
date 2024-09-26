@@ -11,7 +11,7 @@ nav {
   text-align: center;
   font-size: 2vw; font-family: cursive
 }
-
+nav:hover{background-color:green}
 table{text-align: center}
 
 
