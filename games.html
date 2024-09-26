@@ -95,7 +95,7 @@
 
       <h2 style="color: blue">Let's Play A Game!</h2>
       <script>
-                  /************************************
+        /************************************
         Is userNumber less than 10?
 
         STEPS:
@@ -114,24 +114,24 @@
         Display myResult
         *******************************/
 
-          //STEPS: Ask the user for a number. Store the response in userText
-          //PSEUDO: userText <= Ask for a number
-          userText = prompt("Enter a number");
+        //STEPS: Ask the user for a number. Store the response in userText
+        //PSEUDO: userText <= Ask for a number
+        userText = prompt("Enter a number");
 
-          //STEPS: Convert userText to a number. Store the result userNumber.
-          //PSEUDO: userNUmber <= Convert userText
-          userNumber = Number(userText);
+        //STEPS: Convert userText to a number. Store the result userNumber.
+        //PSEUDO: userNUmber <= Convert userText
+        userNumber = Number(userText);
 
-          //STEPS: Compare is userNumber less than 10. Store the result in myResult.
-          //PSEUDO: myResult <= Is userNumber < 10
-          myResult = userNumber < 10;
+        //STEPS: Compare is userNumber less than 10. Store the result in myResult.
+        //PSEUDO: myResult <= Is userNumber < 10
+        myResult = userNumber < 10;
 
-          //STEPS: Display the vaule of myResult.
-          //PSEUDO: Display myResult
-          document.write("Is your number less than 10? " + myResult + "<br>");
+        //STEPS: Display the vaule of myResult.
+        //PSEUDO: Display myResult
+        document.write("Is your number less than 10? " + myResult + "<br>");
 
-               function runProblem1() {
-            /******************************
+        function runProblem1() {
+          /******************************
           Create a loop that repets 3 times and runs the "ask" command.
 
           STEPS:
@@ -156,36 +156,36 @@
 
           *******************************/
 
-            //STEPS: Store 0 in myCount
-            //PSEUDO: myCount = 0
-            myCount = 0;
+          //STEPS: Store 0 in myCount
+          //PSEUDO: myCount = 0
+          myCount = 0;
 
-            //STEPS: Start a loop
-            //PSEUDO:Start loop
-            do {
-              //STEPS: Run the ask command with "Enter a number". Store the result in userNumber
-              //PSEUDO: userNumber <<< prompt("Enter a number")
-              userNumber = prompt("Enter a number");
+          //STEPS: Start a loop
+          //PSEUDO:Start loop
+          do {
+            //STEPS: Run the ask command with "Enter a number". Store the result in userNumber
+            //PSEUDO: userNumber <<< prompt("Enter a number")
+            userNumber = prompt("Enter a number");
 
-              //STEPS: Display userNumber
-              //PSEUDO:Display userNumber
-              document.write(userNumber);
+            //STEPS: Display userNumber
+            //PSEUDO:Display userNumber
+            document.write(userNumber);
 
-              //STEPS: Increment myCount
-              //PSEUDO: Increment myCount
-              myCount++;
+            //STEPS: Increment myCount
+            //PSEUDO: Increment myCount
+            myCount++;
 
-              //STEPS: Compare is myCount === 3. Store it in isDone
-              //PSEUDO: isDone <<< myCount === 3
-              isDone = myCount === 3;
+            //STEPS: Compare is myCount === 3. Store it in isDone
+            //PSEUDO: isDone <<< myCount === 3
+            isDone = myCount === 3;
 
-              //STEPS: While not isDone, repeat
-              //PSEUDO: While not isDone, repeat
-            } while (!isDone);
-          }
+            //STEPS: While not isDone, repeat
+            //PSEUDO: While not isDone, repeat
+          } while (!isDone);
+        }
 
-          function runProblem2() {
-            /******************************
+        function runProblem2() {
+          /******************************
           Create a loop that repets 3 times.
 
           STEPS:
@@ -207,29 +207,29 @@
 
           *******************************/
 
-            //STEP: Store 0 in myCount
-            //PSEUDO: myCount = 0
-            myCount = 0;
-            debugger;
-            //STEP: Start a loop
-            //PSEUDO:  Start loop
-            do {
-              //STEP: Increment myCount
-              //PSEUDO:Increment myCount
-              myCount++;
+          //STEP: Store 0 in myCount
+          //PSEUDO: myCount = 0
+          myCount = 0;
+          debugger;
+          //STEP: Start a loop
+          //PSEUDO:  Start loop
+          do {
+            //STEP: Increment myCount
+            //PSEUDO:Increment myCount
+            myCount++;
 
-              //STEP: Display myCount
-              //PSEUDO: Display myCount
-              document.write(myCount);
+            //STEP: Display myCount
+            //PSEUDO: Display myCount
+            document.write(myCount);
 
-              //STEP: Compare is myCount === 3. Store it in done
-              //PSEUDO: isDone = myCount === 3
-              isDone = myCount === 3;
+            //STEP: Compare is myCount === 3. Store it in done
+            //PSEUDO: isDone = myCount === 3
+            isDone = myCount === 3;
 
-              //STEP: While not done, repeat
-              //PSEUDO: While not isDone, repeat
-            } while (!isDone);
-          }
+            //STEP: While not done, repeat
+            //PSEUDO: While not isDone, repeat
+          } while (!isDone);
+        }
       </script>
       <script>
         runProblem1("<br>");
