@@ -1,6 +1,6 @@
-<script>
-  debugger;
 
+
+    function runProblem1()  {
         /************************************
         Is userNumber less than 10?
 
@@ -22,21 +22,22 @@
 
         //STEPS: Ask the user for a number. Store the response in userText
         //PSEUDO: userText <= Ask for a number
-        userText = prompt("Enter a number");
+       var userText = prompt("Enter a number");
 
         //STEPS: Convert userText to a number. Store the result userNumber.
         //PSEUDO: userNUmber <= Convert userText
-        userNumber = Number(userText);
+       var userNumber = Number(userText);
 
         //STEPS: Compare is userNumber less than 10. Store the result in myResult.
         //PSEUDO: myResult <= Is userNumber < 10
-        myResult = userNumber < 10;
+       var myResult = userNumber < 10;
 
         //STEPS: Display the vaule of myResult.
         //PSEUDO: Display myResult
         document.write("Is your number less than 10? " + myResult + "<br>");
+    }
 
-        function runProblem1() {
+        function runProblem2() {
           /******************************
           Create a loop that repets 3 times and runs the "ask" command.
 
@@ -64,14 +65,14 @@
 
           //STEPS: Store 0 in myCount
           //PSEUDO: myCount = 0
-          myCount = 0;
+         var myCount = 0;
 
           //STEPS: Start a loop
           //PSEUDO:Start loop
           do {
             //STEPS: Run the ask command with "Enter a number". Store the result in userNumber
             //PSEUDO: userNumber <<< prompt("Enter a number")
-            userNumber = prompt("Enter a number");
+           var userNumber = prompt("Enter a number");
 
             //STEPS: Display userNumber
             //PSEUDO:Display userNumber
@@ -83,14 +84,14 @@
 
             //STEPS: Compare is myCount === 3. Store it in isDone
             //PSEUDO: isDone <<< myCount === 3
-            isDone = myCount === 3;
+           var isDone = myCount === 3;
 
             //STEPS: While not isDone, repeat
             //PSEUDO: While not isDone, repeat
           } while (!isDone);
         }
 
-        function runProblem2() {
+        function runProblem3() {
           /******************************
           Create a loop that repets 3 times.
 
@@ -115,7 +116,7 @@
 
           //STEP: Store 0 in myCount
           //PSEUDO: myCount = 0
-          myCount = 0;
+         var myCount = 0;
           
           //STEP: Start a loop
           //PSEUDO:  Start loop
@@ -130,14 +131,15 @@
 
             //STEP: Compare is myCount === 3. Store it in done
             //PSEUDO: isDone = myCount === 3
-            isDone = myCount === 3;
+          var  isDone = myCount === 3;
 
             //STEP: While not done, repeat
             //PSEUDO: While not isDone, repeat
           } while (!isDone);
         }
-      </script>
-      <script>
-        runProblem1("<br>");
-        runProblem2();
-      </script>
+     
+    function main(){
+        runProblem1();
+        runProblem2("<br>");
+        runProblem3()
+    }
